@@ -114,3 +114,27 @@ biographyFacebook = {
 console.table(userFacebook);
 console.table(postFacebook);
 console.table(biographyFacebook);
+
+// Uber Properties
+
+const uberProfile = {
+  name: "Jesus Uriel",
+  lastName: "Robles Vargas",
+  profilePicture: "imageProfile.png",
+  phoneNumber: 5525623226,
+  score: "5 stars",
+  email: "roblesvargas97@gmail.com",
+  password: "*****",
+};
+
+const ubertravel = {
+  origin: "CDMX",
+  destination: "EDOMEX",
+  cost: 200,
+  approximateTime: "60 minutos",
+  driver: "Conductor",
+  user: "Usuario",
+};
+
+console.table(uberProfile);
+console.table(ubertravel);
