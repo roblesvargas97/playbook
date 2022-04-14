@@ -53,3 +53,28 @@ const PullRequest = {
 };
 console.log(PullRequest.getStatus());
 console.log(PullRequest.getTitleAndAuthor());
+
+console.group("Twitter Propertiers");
+
+const userTwitter = {
+  user: "Uriel",
+  username: "roblesvargas97",
+  bio: "Hola Twitter",
+  age: 24,
+  image: "https://image.jpg",
+};
+const trendingToping = {
+  position: "1",
+  subject: "Tecnologia",
+  hashtag: "#LaunchX",
+  tweetsNumbers: "50000",
+};
+
+const hashtag = {
+  name: "LaunchX",
+};
+console.log(userTwitter);
+console.log(trendingToping);
+console.log(hashtag);
+
+console.groupEnd();
