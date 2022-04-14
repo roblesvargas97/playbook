@@ -77,4 +77,40 @@ console.table(userTwitter);
 console.table(trendingTopingTwitter);
 console.table(hashtagTwitter);
 
+// Facebook Properties
 
+const userFacebook = {
+  id: "1",
+  name: "Jesus Uriel Robles Vargas",
+  age: "24",
+  birthday: "08/12/97",
+  email: "roblesvargas97@gmail.com",
+  picture: "http://image.jpg",
+};
+
+const postFacebook = {
+  post: "Hola Facebook",
+  datePost: "08/12/2022",
+  visibility: "public",
+  likes: "4",
+  comments: "",
+  numberOfShare: "4",
+};
+
+biographyFacebook = {
+  publications: ["Hola", "Hola1"],
+  information: {
+    birthday: "08/12/97",
+    ocupation: "Student",
+    phoneNumber: "5534234332",
+    residencePlace: "Mexico",
+  },
+  friends: ["friend1", "friend1", "friend2"],
+  pictures: ["image1.jpg", "image2.jpg"],
+  videos: [],
+  interets: ["Programming , Music"],
+};
+
+console.table(userFacebook);
+console.table(postFacebook);
+console.table(biographyFacebook);
