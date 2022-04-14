@@ -54,7 +54,7 @@ const PullRequest = {
 console.log(PullRequest.getStatus());
 console.log(PullRequest.getTitleAndAuthor());
 
-console.group("Twitter Propertiers");
+// Twitter Properties
 
 const userTwitter = {
   user: "Uriel",
@@ -63,18 +63,18 @@ const userTwitter = {
   age: 24,
   image: "https://image.jpg",
 };
-const trendingToping = {
+const trendingTopingTwitter = {
   position: "1",
   subject: "Tecnologia",
   hashtag: "#LaunchX",
   tweetsNumbers: "50000",
 };
 
-const hashtag = {
+const hashtagTwitter = {
   name: "LaunchX",
 };
-console.log(userTwitter);
-console.log(trendingToping);
-console.log(hashtag);
+console.table(userTwitter);
+console.table(trendingTopingTwitter);
+console.table(hashtagTwitter);
 
-console.groupEnd();
+
